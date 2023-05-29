@@ -5,3 +5,7 @@ body {
 p {
     color: blue;
 }
+.date {
+    display: inline;
+    color: blanchedalmond;
+}
