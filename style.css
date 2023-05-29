@@ -5,7 +5,7 @@ body {
 p {
     color: blue;
 }
-p, .date {
+.date {
     display: inline;
     color: blanchedalmond;
 }
