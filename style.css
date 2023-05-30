@@ -13,6 +13,7 @@ p {
 .social:hover {
     scale: 1.2;
     rotate: 35deg;
+    translate: 25%;
     box-shadow: 2px 2px 5px 5px rgba(2, 19, 56, 0.5);
     border-radius: 15px;
 }
