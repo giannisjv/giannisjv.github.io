@@ -9,3 +9,13 @@ p {
     display: inline;
     color: blanchedalmond;
 }
+.social {
+    width:48px;
+    height:48px;
+}
+.social:hover {
+    scale: 1.2;
+    rotate: 35deg;
+    box-shadow: 2px 2px 5px 5px rgba(2, 19, 56, 0.5);
+    border-radius: 15px;
+}
