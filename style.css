@@ -78,7 +78,11 @@ body {
     background-color: #F1F2F2;
     color: darkslategrey;
 }
-
+.div_container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
 #poemsim{
     float: left;
 }
