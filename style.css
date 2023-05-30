@@ -2,15 +2,12 @@ body {
     font-style: italic;
 }
 
-p {
-    color: blue;
-}
-
-.social {
+.image{
     width:48px;
     height:48px;
 }
-.social:hover {
+
+.social .image:hover {
     scale: 1.2;
     rotate: 35deg;
     translate: 25%;
@@ -80,4 +77,18 @@ body {
     height: 100%;
     background-color: #F1F2F2;
     color: darkslategrey;
+}
+.div_container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.image {
+    float: left;
+}
+.inline {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-decoration-style: solid;
 }
