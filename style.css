@@ -5,10 +5,7 @@ body {
 p {
     color: blue;
 }
-#date {
-    display: inline;
-    color: blanchedalmond;
-}
+
 .social {
     width:48px;
     height:48px;
