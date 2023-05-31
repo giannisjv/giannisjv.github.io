@@ -1,19 +1,8 @@
 body {
-    font-style: italic;
+    margin: 0;
 }
 
-img{
-    width:48px;
-    height:48px;
-}
 
-.social .image:hover {
-    scale: 1.2;
-    rotate: 35deg;
-    translate: 25%;
-    box-shadow: 2px 2px 5px 5px rgba(2, 19, 56, 0.5);
-    border-radius: 15px;
-}
 h2 {
     z-index: 1;
     font-family: 'Gotham', 'Montserrat', sans-serif;
@@ -93,3 +82,75 @@ body {
     line-height: 1.2em;
     font-size: 16px;
 }
+
+/* Top nav Begin */
+
+div.border {
+    width: 260px;
+    padding: 10px;
+    border: 10px solid blue;
+    font-size: 0.8em;
+    font-family: sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #001b13;
+    }
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+.topnav a:hover {
+    background-color: #00a5bb;
+    color: rgb(68, 2, 57);
+    }
+
+.topnav a.active {
+    background-color: #99542c;
+    color: white;
+}
+
+/* Top nav end */
+
+/* Bottom nav start */
+.bottom_navbar {
+    background-color:#001b13;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom_navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+img{
+    width:48px;
+    height:48px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+.social .image:hover {
+    scale: 1.2;
+    rotate: 35deg;
+    translate: 25%;
+    box-shadow: 2px 2px 5px 5px rgba(2, 19, 56, 0.5);
+    border-radius: 50%;
+}
+
+
+/* Bottom nav end */
