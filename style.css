@@ -121,11 +121,14 @@ div.border {
 
 /* Bottom nav start */
 .bottom_navbar {
+    
     background-color:#001b13;
     overflow: hidden;
-    position: fixed;
+    position:absolute;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .bottom_navbar a{
